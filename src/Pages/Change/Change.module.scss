@@ -36,13 +36,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 100%;
     
 }
 
 .test{
 
     padding: 30px;
+
+    position: absolute;
+    right: 0;
 }
 
 
@@ -54,6 +57,8 @@
 .first{
  
     padding: 30px;
+    position: absolute;
+    left: 0;
 }
   
 .middle {
@@ -80,6 +85,8 @@
   padding: 10px;
   border-radius: 50%;
   cursor: pointer;
+ 
+  
   
 
 }
@@ -158,3 +165,13 @@ th {
 h2 {
   margin-bottom: 10px; 
 }
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .switch {
+        margin-top: 300px;
+    }
+  }
+
