@@ -124,13 +124,37 @@ input{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+
+
 table {
-  border-collapse: separate;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 
 td, th {
-  border-bottom: 1px solid #ccc; 
+  border-bottom: 1px solid #ddd;
+  padding: 8px; 
+  text-align: center;
 }
 
 
+thead th {
+  background-color: #f2f2f2; 
+}
+
+
+tbody tr:last-child td {
+  border-bottom: none; 
+}
+
+
+th {
+  background-color: #ffffff; 
+  color: rgb(45, 64, 92);
+}
+
+
+h2 {
+  margin-bottom: 10px; 
+}
