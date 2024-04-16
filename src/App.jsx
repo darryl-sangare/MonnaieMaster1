@@ -5,8 +5,9 @@ import './App.css'
 import {Routes, Route} from "react-router-dom"
 import Home from './Pages/Home/Home'
 import Header from './Components/Header/Header'
-import About from './Pages/About/About'
+import Change from './Pages/Change/Change'
 import Footer from './Components/Footer/Footer'
+import Simulateur from './Pages/Simulateur/Simulateur'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       <Header/>
       <Routes>
       <Route path="/" element={<Home/>}  />
-      <Route path="/About" element={<About/>}  />
+      <Route path="/Change" element={<Change/>}  />
+      <Route path="/Simulateur" element={<Simulateur/>}  />
     
 
       </Routes>
