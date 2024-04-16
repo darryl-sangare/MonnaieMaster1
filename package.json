@@ -7,15 +7,19 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start"
   },
   "dependencies": {
     "@ant-design/icons": "^5.3.6",
     "antd": "^5.16.2",
+    "axios": "^1.6.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0",
     "react-icons": "^5.1.0",
     "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
     "sass": "^1.75.0"
   },
   "devDependencies": {
