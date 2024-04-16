@@ -16,7 +16,7 @@ const CustomDropdown = () => (
     <a onClick={(e) => e.preventDefault()}>
       <Space className={styles.fr} >
         FR
-        <DownOutlined />
+        <DownOutlined className={styles.down}/>
       </Space>
     </a>
   </Dropdown>

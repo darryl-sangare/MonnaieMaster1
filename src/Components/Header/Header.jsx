@@ -3,26 +3,26 @@ import { Link } from 'react-router-dom'
 import {FaBars, FaTimes } from "react-icons/fa"
 import reactLogo from '../../assets/logo.svg'
 import React, { useState } from 'react';
-import CustomDropdown from '../Dropdown/Dropdown'; // Renommer le composant Dropdown
+import CustomDropdown from '../Dropdown/Dropdown'; 
+
 
 function Header(){
     return(
         <header className={styles.main}>
             <div className={styles.container}>
                 <div className={styles.logo}>
-                    <Link to="/">
                         <img src={reactLogo} alt="React Logo" />
-                    </Link>
+                        <h3>Monnaie<span>Master</span></h3>
                 </div>
                 <nav className={styles.links} >
                     <ul>
-                        <li><Link to="/">Accueil</Link></li>
-                        <li><Link to="/Change">Convertisseur</Link></li>
-                        <li><Link to="/Simulateur">Simulateur</Link></li>
+                        <li><Link  className={styles.link}  to="/">Accueil</Link></li>
+                        <li><Link  className={styles.link}  to="/Change">Convertisseur</Link></li>
+                        <li><Link  className={styles.link}  to="/Simulateur">Simulateur</Link></li>
                     </ul>
                 </nav>
                 <div>
-                    <CustomDropdown/> {/* Utiliser le composant renommé */}
+                    <CustomDropdown/>
                 </div>
             </div>
         </header>
